@@ -9,7 +9,7 @@ Ce guide couvre l'installation de RabbitMQ, Hadoop et Kafka sur Ubuntu. Suivez c
 
 
 2. **Installer RabbitMQ** :
-   ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/1debc304-ccee-4755-9b00-6ad4001cc9db)
+  - ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/1debc304-ccee-4755-9b00-6ad4001cc9db)
 
 
 3. **Démarrer le service RabbitMQ** :
