@@ -59,8 +59,8 @@ Ce guide couvre l'installation de RabbitMQ, Hadoop et Kafka sur Ubuntu. Suivez c
    - Téléchargez la dernière version de Kafka depuis le site web Apache Kafka.
    - https://kafka.apache.org/downloads
    - ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/a2e76ab3-47c8-4224-83cd-becf22d72707)
-Assurez-vous de remplacer <version> par le numéro de version réel. Par exemple:
-![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/9d4011b2-c2d2-4f41-9983-4555115ef917)
+   - Assurez-vous de remplacer <version> par le numéro de version réel. Par exemple:
+   - ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/9d4011b2-c2d2-4f41-9983-4555115ef917)
 
 
 3. **Démarrage de Zookeeper** :
