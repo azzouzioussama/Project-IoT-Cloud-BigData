@@ -5,7 +5,7 @@ Ce guide couvre l'installation de RabbitMQ, Hadoop et Kafka sur Ubuntu. Suivez c
 ## Installation de RabbitMQ
 
 1. **Mettre à jour les paquets** :
-  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/67404e5d-4ab9-49d9-95f8-8295c71d9aa6)
+  - ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/67404e5d-4ab9-49d9-95f8-8295c71d9aa6)
 
 
 2. **Installer RabbitMQ** :
@@ -13,21 +13,21 @@ Ce guide couvre l'installation de RabbitMQ, Hadoop et Kafka sur Ubuntu. Suivez c
 
 
 3. **Démarrer le service RabbitMQ** :
-   ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/ea441f5c-f6d7-4cb0-8a7f-abaf149eed35)
+  - ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/ea441f5c-f6d7-4cb0-8a7f-abaf149eed35)
 
 
 4. **Vérifier le statut du service RabbitMQ** :
-   ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/7697fec9-05b1-40c6-8120-4edc07b6718e)
+  - ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/7697fec9-05b1-40c6-8120-4edc07b6718e)
 
 
 ## Installation de Hadoop
 
 1. **Mettre à jour le système** :
-   ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/dd557692-573b-430f-88ea-3c1618932e28)
+  - ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/dd557692-573b-430f-88ea-3c1618932e28)
 
 
 2. **Télécharger et extraire Hadoop** :
-   ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/2a1e6439-33a0-4486-93ad-391b10a14899)
+  - ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/2a1e6439-33a0-4486-93ad-391b10a14899)
 
 
 3. **Configurer les variables d'environnement** :
