@@ -136,13 +136,30 @@ Ce guide couvre l'installation de RabbitMQ, Hadoop et Kafka sur Ubuntu. Suivez c
 ## Installation de Spark
 
 1. **Préparation de l'installation** : Mettez à jour la liste des paquets et assurez-vous que Java est correctement installée.
-  -  
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/80d6228f-d501-40b9-b052-c81119dd1f54)
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/fd4b36d8-d687-4195-a448-04a666a789df)
+
+
 2. **Téléchargement et extraction de Spark** : Utilisez le site web d'Apache Spark pour télécharger Spark et extrayez-le dans le répertoire de votre choix.
-  -  
+  -  Vous pouvez utiliser wget avec l'URL directe du fichier tar.gz en executant cette commande :
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/b53ad8db-46f7-47bf-973d-7e0b1781dedc)
+  -  Une fois le téléchargement terminé, extrayez le fichier téléchargé dans un réper-toire de votre choix. /opt est souvent utilisé pour ce type de logiciel :
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/b50f17a2-9427-4377-a48e-c120ca1199c6)
+
+
 3. **Configuration des variables d'environnement** : Configurez les variables d'environnement pour Apache Spark en éditant le fichier `.bashrc`.
-  -  
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/6ef9e6eb-9a24-455b-9471-4ab605e36d7e)
+  -  Ajoutez les lignes suivantes à la fin du fichier :
+          - `export SPARK_HOME=/opt/spark`
+          - `export PATH=$PATH:$SPARK_HOME/bin`
+  - Remplacez `/opt/spark-3.2.1-bin-hadoop3.2` par le chemin où vous avez extrait Spark si vous avez choisi un chemin différent.
+  - Appliquez les modifications apportées au fichier .bashrc en exécutant :
+  - ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/f4fc6b05-219a-424a-adad-4c8fafcb7a9e)
+
+
 4. **Vérification de l'installation** : Lancez le shell Spark pour vérifier que Spark est correctement installé et configuré.
-  -  
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/53a0f596-99d1-4339-ab46-16a56a78694d)
+
 
 Remplacez les placeholders (par exemple, les chemins ou les commandes spécifiques) par les valeurs réelles applicables à votre installation. Suivez les instructions détaillées et la documentation officielle pour des informations à jour.
 
