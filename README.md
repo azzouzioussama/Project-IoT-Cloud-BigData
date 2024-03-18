@@ -78,26 +78,71 @@ Ce guide couvre l'installation de RabbitMQ, Hadoop et Kafka sur Ubuntu. Suivez c
 ## Installation de Cassandra
 
 1. **Mise à jour du système** : Commencez par mettre à jour le cache de votre gestionnaire de paquets et les paquets de votre système.
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/161ecf3d-9243-48eb-a7c4-e41c4d7661d7)
+
 2. **Installation de Java** : Apache Cassandra nécessite Java pour fonctionner. Installez OpenJDK avec la commande appropriée ou vérifiez la version de Java installée si déjà présente.
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/e6c3e756-3476-43b1-a515-9d514f5d1d7d)
+  -  Si Java est déjà installé : Vous pouvez vérifier la version de Java installée en utilisant :
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/1cd35bc4-f85e-4b69-a052-b1c666401f8d)
+
+
 3. **Téléchargement de Cassandra** : Utilisez `curl` pour télécharger la dernière version de Cassandra.
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/8bbb58f9-39c3-4ffc-9a7c-1ba7aadf0555)
+
 4. **Vérification de l'intégrité** : Vérifiez l'intégrité du téléchargement avec les commandes appropriées pour le fichier SHA256.
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/5bd6d951-91bd-4493-b85d-2254ab082ba2)
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/dc758af4-c524-4220-8e02-f62783066c5e)
+
+
 5. **Extraction et démarrage** : Extrayez l'archive Cassandra et démarrez le serveur en accédant au répertoire de Cassandra.
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/b47c60b7-c751-4aea-ac7c-89aaf1afe5ab)
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/2f448fdf-d1f3-4708-86ee-fd17775ac9af)
+
 
 ## Installation de MongoDB
 
 1. **Mise à jour des packages systèmes** : Vérifiez et mettez à jour les packages systèmes.
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/8cbe13cb-9f53-4cbd-b3a4-dafb3be30f0d)
+
 2. **Installation des packages requis** : Installez certains packages nécessaires pour MongoDB.
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/263b37dc-ab6e-42b4-8887-a482523954c9)
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/f0dfea0e-2f66-4bc5-8584-a98bbeb88e0b)
+
+
 3. **Ajout de la clé GPG et du référentiel MongoDB** : Pour vérifier l'authenticité et ajouter le référentiel MongoDB, suivez les étapes indiquées.
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/f7d4cc2e-4b2d-42ee-ba43-988f705c9ea0)
+  -  Ensuite ajouter le référentiel de mongodb car il n’est pas disponible dans le référentiel système par défaut :
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/fcfedd6f-a8a2-4af8-9127-e95415a21211)
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/ec659816-f42f-49fb-94fe-ba47038d0280)
+  -  Mettre à nouveau le système à jour :
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/043239c2-4146-44a6-afc3-6b9ca231f164)
+
+
 4. **Installation de MongoDB** : Installez MongoDB, qui comprend le shell du serveur et d'autres outils essentiels.
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/96d6956f-2e85-4f15-a179-e4d40d83b625)
+
 5. **Démarrage du service MongoDB** : Démarrez le service MongoDB et vérifiez son statut.
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/2e2a3ee9-6470-4fed-91a0-f3b26f09b326)
+  -  On voit que le service est activé
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/48e7e986-337d-486a-bf98-3510df2625f4)
+
+
 6. **Vérification de l'installation** : Vérifiez la version installée de MongoDB pour confirmer sa correcte installation.
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/947daa9d-cfdb-4ffd-9625-6fc699090df0)
+  -  ![image](https://github.com/azzouzioussama/Project-IoT-Cloud-BigData/assets/78319392/aaf32e1b-47e8-406c-8231-28907e6e0a30)
+
+
 
 ## Installation de Spark
 
 1. **Préparation de l'installation** : Mettez à jour la liste des paquets et assurez-vous que Java est correctement installée.
+  -  
 2. **Téléchargement et extraction de Spark** : Utilisez le site web d'Apache Spark pour télécharger Spark et extrayez-le dans le répertoire de votre choix.
+  -  
 3. **Configuration des variables d'environnement** : Configurez les variables d'environnement pour Apache Spark en éditant le fichier `.bashrc`.
+  -  
 4. **Vérification de l'installation** : Lancez le shell Spark pour vérifier que Spark est correctement installé et configuré.
+  -  
 
 Remplacez les placeholders (par exemple, les chemins ou les commandes spécifiques) par les valeurs réelles applicables à votre installation. Suivez les instructions détaillées et la documentation officielle pour des informations à jour.
 
